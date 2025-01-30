@@ -23,7 +23,7 @@ This matters later on in the project, as i'll have to use a double concave lens 
 I have to be honest I still dont fully understand how the optics inside of an objective lens work, specifically regarding FOV and if the incoming beams need to fully "fill" the aperature, and what
 impact this might have on the outgoing beam. 
 
-![optical setup](~/school_files/WISNED/lithography-project/testing-aether.png)
+![optical setup](./../testing-aether.png)
 
 ##### problems
 
