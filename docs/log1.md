@@ -63,3 +63,10 @@ i'm planning to use a flexing system that adjusts its diameter using threaded sc
 I also have to design an adapter for the projector so that i can mount the 400mm focusing lens to it. I feel like this is going to be a bigger hurdle than the others, due to the fact the lens "moves"
 when adjusting its focus, so the adapter will have to be mounted to the rim of the lens while (ideally) not rotating with it. 
 
+i'll still have to look into tolerances and flexibility of fillament for the optical holders. 
+
+Another huge pain has been matching the screws between metric and imperial, as well as fitting the counterbore holes into the design. The mounting holes to the base should be fine, as its intended to
+screw into the optical breadboard, but the hole on the side of the design needs to be threaded so that a screw can fasten whatever optical device is inserted so it doesnt swivel. 
+
+![3d-model](./../2025-01-30_00-51.png)
+
