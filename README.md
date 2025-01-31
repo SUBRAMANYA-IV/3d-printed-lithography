@@ -12,7 +12,7 @@ The most "difficult" to source parts of this project will be
 
 This project is still in progress, and I only expect results mid way through the fall-semester of 2025. However, the general road map comes in 3 parts
 
-#### Simulation and Sourcing
+##### Simulation and Sourcing
 
 This was surprisingly one of the most time consuming parts.
 
@@ -35,7 +35,29 @@ Though I'm still learning my way around this software, so far its been incredibl
 
 one hurdle i've faced so far is the simulation of an aluminum-based beam splitter, which is giving an unexpected amount of scattering for the passed beam. 
 
-#### Other software
+##### Testing using an optical bread board
+
+before 3d printing the entire project to house all the optics and the projector, it'd be best to test out the system for any optical abberations, projected image quality and other parameters/factors. 
+To do this I plan on 3d printing a few optical holders and using an optical breadboard to test the whole setup, with the most important factors being
+- ability of the system to focus the light onto the sample, changing the power of the objective lens as well as testing if theres enough 'leeway' with the projectors built in focusing mechanism to account for any errors
+- ability of the system to project a clear, sharp image onto the sample; needs to maintain sharp "lines" while changing the microscope objective, depending on how "large" the printed image needs to be
+- ability to pass/block the respective wavelengths needed; needs to be able to pass UV light through the beam splitter, which is then funneled into the objective lens, while the reflected light needs to be in the visible range to be safely viewed by the imaging sensor/eye. 
+- **the most difficult part**: account for any phase shifts/optical abberations that might occur. This might require the use of diffraction gratings or other optical components to select for specific wavelengths. 
+
+##### prototyping and assembley of the optical setup
+
+Finally, once all the problems with the optical breadboard setup are resolved, we can model and 3d print the final setup. Given that the focusing power of the lenses I have at hand are around 200-500 mm, or 
+20-50 cm, I believe the setup will be somewhat "long" to accomodate the required focusing points of each lens. 
+
+
+
+After getting all of this to work, I'll begin working on a moving stage using the OpenFlexure project, which will allow me to either create multiple samples on a larger wafer, OR to create larger circuits by
+projecting and moving the stage. The latter seems more useful but also significantly more difficult, as the stage will have to have incredible precision, along with the optical setup being able to repeatedly
+project the same image, with the same precision multiple times.
+
+
+
+### Other software
 
 other than the simulation, I've been using FreeCad to model components like the lens holders and mount for the projector. I'll go into detail as why this is a surprisingly important aspect of the project. 
 
