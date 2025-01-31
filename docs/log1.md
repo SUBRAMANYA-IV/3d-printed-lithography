@@ -70,3 +70,12 @@ screw into the optical breadboard, but the hole on the side of the design needs 
 
 ![3d-model](./../2025-01-30_00-51.png)
 
+
+I also created a "blueprint"-esque diagram using Freecad's techdraw so I could more easily track the various dimensions of the optical holder when designing other components. 
+![optical-holder](./../optical-holder-and-shaft.png)
+
+This was surprisingly easy, it essentially took "pictures" of the object with its current orientation in the parts work bench, and allowed you to select any verticies or 
+holes to add measurements to. 
+
+It should be noted that the measurements are done relative to the orientation of the picture taken; ie, I tried to add a diameter measurement of a non-orthogonal view, and it gave me the error of "trying to measure the diameter of an ellipse", which is something to keep in mind.
+
